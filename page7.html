@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="./css/code.css">
+   <title>Page 7</title>
+</head>
+<body>
+   <h1>Git Work Flow</h1>
+   <p>When you work with a team and you are responsible for an individual piece of a  
+      project, you usually want to create your own branch for that piece.
+   </p>
+   <p>Later, when you are done, you would merge your branch with the main project.</p>
+   <p>This is what a typical workflow could look like:</p>
+   <ol>
+      <li>Pull the shared repository to your local machine using <em>clone</em> command, like so:
+         <div>
+            <pre>
+               <code>git clone url_of_the_repo_to_clone</code>
+            </pre>
+         </div>
+         This command is going to create a local clone of the remote repository.
+      </li>
+      <li>Create a new branch out of it.
+         <div>
+            <pre>
+               <code>git checkout -b new_branch</code>
+            </pre>
+         </div>
+      </li>
+      <li>While you work on your new branch, keep adding and committing to your local branch the changes you made.</li>
+      <li>When you are done, you can push your branch to the remote repository (in this example called <code>origin</code>)
+         <div>
+            <pre>
+               <code>git push -u origin new_branch</code>
+            </pre>
+         </div>
+         Note that this step will create a remote <code>new_branch</code> and link it to your local <code>new_branch</code>. 
+      </li>
+      <li>Now you have to go to GitHub where your team project is and open a <em>pull request</em>. Pull request is your way of asking for your local branch you pushed to be merged with the remote branch, in this case, the remote master branch.
+         <ul>
+            <li>On GitHub.com, go to the group project repo and click <b>New pull requests</b> button.</li>
+            <li>Click <b>New Pull Request</b> button.
+            <div><img src="./img/newPullReq.png" alt="New Pull Request button on GitHub"></div>
+            </li>
+            <li>On the <b>Compare Branches Page</b>, select the second drop-down on the right (the <em>compare</em> one) and choose the new branch you pushed.
+            <div><img src="./img/compareBranch.png" alt="Base and Compare branch drop-down lists"></div>
+            </li>
+            <li>On the right-hand side request a reviewer (both of your teammates).</li>
+            <li>Leave a comment with your changes and click <b>Create pull request</b>.</li>
+         </ul>
+      </li>
+      <li>When your teammates review your code, they can offer suggestions or point out any errors in your code. 
+         Here is how you and other teammates can give each other suggestions as <em>reviewers</em>:
+         <ul>
+            <li>In GitHub, in the repo you share as a team, click on the <b>Pull requests</b> tab and select the pull request of your teammate.</li>
+            <li>Click on the <b>Files changed</b> tab.</li>
+            <li>Select the file you want to review.</li>
+            <li>Click the plus symbol that should appear near the start of any line of the code and start the review process - click <b>Start a review</b> button.</li>
+            <li>Add any comments or suggest changes. They will all be marked as <b>pending</b>.</li>
+            <li>When you are ready to submit all these pending comments to share them with your team, use the button on the right (<b>Review changes</b>) that will let you submit the review as a <b>Comment</b>, as an <b>Approve</b> or, if there are errors in the code, you can select <b>Request changes</b> before you approve the merge.</li>
+            <li>See this short video <a href="https://youtu.be/HW0RPaJqm4g" target="_blank">Code Review on GitHub</a> that shows these review steps.</li>
+         </ul>
+      </li>
+      <li>Once you all agree that your <code>new_branch</code> is ready to be merged, you can merge it into the remote master branch (if you have the proper permissions for this particular project to do so) using the green merge button on the <b>Pull requests</b> tab.</li>
+      <li>Now you can delete your branch from the GitHub repo of your team project.  To do so, click on <b>Branches</b> tab, choose <b>Yours</b> button and delete the branch.</li>
+   </ol>
+</body>
+</html>

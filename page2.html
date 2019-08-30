@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="./css/code.css">
+   <title>Page 2</title>
+</head>
+<body>
+   <h1>Git Setup</h1>
+   <h2>Set up a GitHub account</h2>
+   <ol>
+      <li>Go to <a href="https://github.com/">github.com</a> and register for a free account.</li>
+      <li>In your account, click on your picture in the upper-right corner, and select <b>Settings</b>.</li>
+      <li>Select <b>Emails</b> from the list of personal settings in the right-hand-side menu.</li>
+      <li>Check both of these options, so they are selected: <i>Keep my email address private</i> and <i>Block command line pushes that expose my email</i>.</li>
+      <li>Under the <i>Keep my email address private</i> option note the email address alias that you will use later when setting up your Git account on your local machine. My alias is, for example, <code>p-buda@users.noreply.github.com</code>.
+         <br>
+         <small>Why do we do this? Since GitHub free repositories are public, your email address would be exposed whenever you commit code to those public repositories. Using alias hides your actual email address.</small>
+      </li>
+   </ol>
+   <p>Now you are ready to set up Git application on your personal computer.</p>
+   <h2>Set up Git on your local machine</h2>
+   <ol>
+      <li>Download <a href="https://git-scm.com/" target="_blank">Git</a> and install it like any other, standard application. Note for the Mac users: In order to open the installer, after you open the downloaded package, you might need to right-click on the installer and then click <b>Open</b>.</li>
+      <li>During the installation process, you can leave all the default options as they are.</li>
+      <li>Open Git Bash application if you have Windows machine or open Terminal if you have a Mac/Linux.
+         <br><small>Note that Git is a tool that works inside the Terminal and whether you are on a Mac or Windows, you can use all the standard commands to create folders (<code>mkdir</code>), move in the directory structure (<code>cd</code>), list files (<code>ls</code>), and similar.</small>
+      </li>
+      <li>Set up your global settings for Git, like so: 
+         <ul>
+            <li>In the Terminal/Git Bash type <code>git config --global user.name "First Last"</code>. Replace the "First Last" with your actual first and last name or a nickname. Hit Enter to save this setting. This will be publicly visible once you connect your Git to GitHub. I do use my actual first and last name though.</li>
+            <li>Still in the Terminal/Git Bash, type <code>git config --global user.email "email@example.com"</code>. Replace the "email@example.com" with the alias email you got from setting up your GitHub account above. Mine was p-buda@users.noreply.github.com.</li>
+         </ul>
+         You set up the global settings only once and all the projects that you track with Git will have that information. If you would like to change your name or email, just retype the above command(s) again with the new settings.
+      </li>
+   </ol>
+   </body>
+</html>

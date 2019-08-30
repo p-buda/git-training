@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="./css/code.css">
+   <title>Page 5</title>
+</head>
+<body>
+   <h1>Git &amp; Making Branches</h1>
+   <h2>What is a branch?</h2>
+   <!-- <p>When you initialize a Git repository and start making commits, they are all part of one version of your project. It is known as the default <em>branch</em> of your project, called by convention "master." A branch is a list of commits in one version of your project. The newest commit is also known as <em>HEAD</em>.</p> -->
+   <p>When you initialize a Git repository and start making commits, they are all part of one version of your project. A <em>branch</em> is a pointer to the latest commit in one version of your project. That newest commit is also known as <em>HEAD</em>. Without creating any other branches, we only have one default branch in our project, called by convention <em>master</em>.</p>
+   <p>To see which commit the branch called "master" points to, use this command:</p>
+   <div>
+      <pre>
+         <code>git show master</code>
+      </pre>
+   </div>
+   <p>To see the list of all the branches in your project, use this command:</p>
+   <div>
+      <pre>
+         <code>git branch</code>
+      </pre>
+   </div>
+   <p>The branch that is currently selected will have a star symbol by its name, for example, <code>* master</code>.</p>
+   <h2>Creating branches</h2>
+   <p>Git allows you to branch-off from the main version of your project and start a different version. For example, to add a feature or fix a bug while keeping the main branch intact and available for other programmers to work with till you are ready to merge your changes into it.
+      To do that, you have to create another branch and give it a name.</p>
+   <p>To create a new branch, type </p>
+   <div>
+         <pre>
+            <code>git branch <i>branch_name</i></code>
+         </pre>
+   </div>
+   <p>Now, to switch to that new branch and put it in your working directory, use:</p>
+   <div>
+         <pre>
+            <code>git checkout <i>branch_name</i></code>
+         </pre>
+   </div>
+   <h2>Switching between branches</h2>
+   <p>You can switch between all the branches in your project using <code>git checkout <i>branch_name</i></code> command where "branch_name" is the name of the branch you want to switch to.</p>
+   <p>But note that when you switch after several commits, you are “back” in your project version to the state your files were when you did the latest commit in the branch you are switching to.</p>
+   <h2>Branches Video</h2>
+   <p>This Git Education series video explains branches in detail, so, I ask that you watch it: <a href="https://youtu.be/kQMhvjLFS28" target="_blank">Branches</a></p>
+</body>
+</html>

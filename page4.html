@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="./css/code.css">
+   <title>Page 4</title>
+</head>
+<body>
+   <h1>Git &amp; Fetching &amp; Pulling from Remotes</h1>
+   <h2>Fetching changes from the remote repository to the local repository</h2>
+   <p>When you work on the project that you store on GitHub and it happens that you uploaded the most current version of your code to GitHub from another computer, you can bring the code on your current machine up-to-date by <em>fetching</em> and the <em>pulling</em> the changes from that remote on GitHub.</p>
+   <p>Another reason to fetch and pull is when you work on the project with multiple users who share the same remote repository. 
+      You can get the history of all the new files and code they committed to that remote by running the <code>fetch</code> command.</p>
+   <div>
+      <pre>
+         <code>git fetch</code>
+      </pre>
+   </div>
+   <p>Note that this command is not going to update your code or merge those files to your version of the repository. It will just update your local .git tracking folder.</p>
+   <h2>Updating local repository with the files and changes from the remote repo</h2>
+   <p>Now that we fetched the info from the remote repo about the changes in the project, we can pull those changes to our local version of the project. To do that, we use this command:</p>
+   <div>
+      <pre>
+         <code>git pull</code>
+      </pre>
+   </div>
+   <p>Note that you can skip the <code>git fetch</code> command and go straight to <code>git pull</code> to update the local files.</p>
+</body>
+</html>
