@@ -3,6 +3,7 @@
 body {
    max-width: 800px;
    margin-left: 100px;
+   font-size: 120%;
 }
 
 code {
@@ -11,6 +12,6 @@ code {
    color: #282828;
    background-color: #E8E8E8;
    border-radius: 3px;
-   padding-left: 5px; 
-   padding-right: 5px; 
+   padding-left: 5px;
+   padding-right: 5px;
 }
