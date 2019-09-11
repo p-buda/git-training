@@ -6,4 +6,4 @@
 ## Useful resources:
 
 ### Articles:
-[How to understand Git: an intro to basic commands, tips, and tricks](https://www.freecodecamp.org/news/understanding-git-basics-commands-tips-tricks/)
+* [How to understand Git: an intro to basic commands, tips, and tricks](https://www.freecodecamp.org/news/understanding-git-basics-commands-tips-tricks/) by [Goran Aviani](https://www.freecodecamp.org/news/author/goran/)
