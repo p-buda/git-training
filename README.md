@@ -13,6 +13,7 @@
 
 ### Books:
 * [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub
+    - [Contributing to a Project](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project)
 
 ### GitHub Docs:
 * [Removing sensitive data from a repository](https://help.github.com/en/articles/removing-sensitive-data-from-a-repository)
