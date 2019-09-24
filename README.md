@@ -1,7 +1,7 @@
 # git-training
 ## Tutorial that I put together for my students.
 ### Special thanks to [GitHub Education](https://education.github.com/teachers/advisors) for many examples that helped me build this training material.
-### Special thanks also to [freeCodeCamp](freecodecamp.org) for sending me great articles on Git & GitHub that I can later reference in this Readme.
+### Special thanks also to [freeCodeCamp](https://www.freecodecamp.org/) for sending me great articles on Git & GitHub that I can later reference in this Readme.
 
 
 ## Useful resources:
