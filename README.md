@@ -6,6 +6,11 @@
 
 ## Useful resources:
 
+### Cheat sheets:
+* [Git Cheatsheet](http://ndpsoftware.com/git-cheatsheet.html#loc=remote_repo;) by [NDP Software](http://ndpsoftware.com/)
+* [GitHub's Git Cheat Sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
+* [So you have a mess on your hands](http://justinhileman.info/article/git-pretty/git-pretty.png) by [Justin Hileman](http://justinhileman.info/)
+
 ### Articles:
 * [How to understand Git: an intro to basic commands, tips, and tricks](https://www.freecodecamp.org/news/understanding-git-basics-commands-tips-tricks/) by [Goran Aviani](https://www.freecodecamp.org/news/author/goran/)
 * [Git: The Beginner's Guide to Understanding Core Version Control Concepts](https://www.freecodecamp.org/news/git-the-laymans-guide-to-understanding-the-core-concepts/) by [Bob Ziroll](https://www.freecodecamp.org/news/author/bob/)
