@@ -17,7 +17,7 @@
       <li>Check both of these options, so they are selected: <i>Keep my email address private</i> and <i>Block command line pushes that expose my email</i>.</li>
       <li>Under the <i>Keep my email address private</i> option note the email address alias that you will use later when setting up your Git account on your local machine. My alias is, for example, <code>p-buda@users.noreply.github.com</code>.
          <br>
-         <small>Why do we do this? Since GitHub has repositories that are public, your email address would be exposed whenever you commit code to those public repositories. Using alias hides your actual email address.</small>
+         Why do we do this? When working with GitHub's public repositories, your email address is exposed in commits' history. Using alias hides your actual email address.
       </li>
    </ol>
    <p>Now you are ready to set up Git application on your personal computer.</p>
@@ -30,7 +30,7 @@
       </li>
       <li>Set up your global settings for Git, like so:
          <ul>
-            <li>In the Terminal/Git Bash type <code>git config --global user.name "First Last"</code> but replace the "First Last" with your actual first and last name or a nickname. Hit Enter to save this setting. This will be publicly visible once you push your work to GitHub. I do use my actual first and last name, though.</li>
+            <li>In the Terminal/Git Bash type <code>git config --global user.name "First Last"</code> but replace the "First Last" with your actual first and last name or a nickname. Hit <b>Enter</b> to save this setting. Your name will be publicly visible once you push your work to GitHub. (I do use my actual first and last name, though.)</li>
             <li>Still in the Terminal/Git Bash, type <code>git config --global user.email "email@example.com"</code> but replace the "email@example.com" with the alias email you got from setting up your GitHub account above. Mine was p-buda@users.noreply.github.com.</li>
          </ul>
          You set up the global settings only once, and all the projects that you track with Git will have that information. If you would like to change your name or email, just retype the above command(s) again with the new settings.

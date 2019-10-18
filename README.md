@@ -15,13 +15,16 @@
 * [How to understand Git: an intro to basic commands, tips, and tricks](https://www.freecodecamp.org/news/understanding-git-basics-commands-tips-tricks/) by [Goran Aviani](https://www.freecodecamp.org/news/author/goran/)
 * [Git: The Beginner's Guide to Understanding Core Version Control Concepts](https://www.freecodecamp.org/news/git-the-laymans-guide-to-understanding-the-core-concepts/) by [Bob Ziroll](https://www.freecodecamp.org/news/author/bob/)
 * [How to make your first Pull Request on GitHub](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github/) by [Flavio Copes](https://www.freecodecamp.org/news/author/flavio/)
-
+* [The anatomy of a Git commit](https://blog.thoughtram.io/git/2014/11/18/the-anatomy-of-a-git-commit.html) by [Christoph Burgdorf](https://twitter.com/cburgdorf)
 ### Books:
 * [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub
     - [Contributing to a Project](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project)
 
 ### GitHub Docs:
 * [Removing sensitive data from a repository](https://help.github.com/en/articles/removing-sensitive-data-from-a-repository)
+
+### Slides:
+* [Introduction to Git/GitHub](https://www.girldevelopit.com/materials/intro-git-github) by [Girl Develop It](by https://www.girldevelopit.com/)
 
 ### Version Control Tools:
 * [Sourcetree](https://www.sourcetreeapp.com/)
