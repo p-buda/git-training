@@ -25,7 +25,7 @@
 * [Removing sensitive data from a repository](https://help.github.com/en/articles/removing-sensitive-data-from-a-repository)
 
 ### Slides:
-* [Introduction to Git/GitHub](https://www.girldevelopit.com/materials/intro-git-github) by [Girl Develop It](by https://www.girldevelopit.com/)
+* [Introduction to Git/GitHub](https://www.girldevelopit.com/materials/intro-git-github) by [Girl Develop It]( https://www.girldevelopit.com/)
 
 ### Version Control Tools:
 * [Sourcetree](https://www.sourcetreeapp.com/)
